@@ -1,5 +1,5 @@
 import users from './users.js';
-const gwrUserName = user => {
+const getUserNames = user => {
   return user.map(user => user.name);
 };
 console.log(getUserNames(users));

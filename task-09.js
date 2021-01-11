@@ -1,6 +1,6 @@
 import users from './users.js';
 const getNamesSortedByFriendsCount = users => {
-  const result = user
+  const result = users
     .sort((a, b) => a.friends.length - b.friends.length)
     .map(user => user.name);
   return result;
